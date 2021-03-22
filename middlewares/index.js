@@ -1,0 +1,9 @@
+module.exports.createTalker = require('./talkers/create');
+module.exports.getAllTalkers = require('./talkers/getAll');
+module.exports.getTalkerById = require('./talkers/getById');
+module.exports.editTalker = require('./talkers/edit');
+module.exports.deleteTalker = require('./talkers/delete');
+module.exports.searchTalker = require('./talkers/search');
+module.exports.login = require('./login');
+module.exports.error = require('./error');
+module.exports.auth = require('./auth');
