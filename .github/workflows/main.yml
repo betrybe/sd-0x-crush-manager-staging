@@ -26,7 +26,7 @@ jobs:
         uses: betrybe/jest-evaluator-action@v7
         with:
           repository-test-name: 'betrybe/sd-0x-crush-manager-tests'
-          repository-test-branch: 'refactor-talker-manager'
+          repository-test-branch: 'fix/false-positive'
           npm-start: true
       - name: Store evaluation step
         uses: betrybe/store-evaluation-action@v2
